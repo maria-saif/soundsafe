@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Scam Audio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ===== Audio Section ===== */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #F8EDEB, #F9DCC4);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+    .audio-section {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      margin-bottom: 60px;
+      padding: 30px;
+      max-width: 700px;
+      width: 100%;
+      text-align: center;
+    }
+    h2 {
+      color: #902627;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    audio {
+      width: 80%;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #6C1D1D;
+      margin-bottom: 10px;
+    }
+    .recommendation {
+      font-weight: bold;
+      color: #772020;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">
+      <img src="Logo and poster/logo_anti_fraud.svg" alt="SmartCall AI Logo" height="60">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="images.html">Images</a>
+      <a href="video.html">Video</a>
+      <a href="audio.html">Audio</a>
+      <a href="3d.html">3D</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Audio 1: Before -->
+<div class="audio-section">
+  <h2>Before Modification</h2>
+  <audio controls>
+    <source src="Audio/audio_before.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <p>
+    This is the original voice recording before any modifications. Background noise and sensitive information have not been removed yet.
+  </p>
+  <p class="recommendation">
+    Recommendation: Always stay alert for voice phishing attempts, and never share personal information over calls from unknown sources.
+  </p>
+</div>
+
+    <!-- Audio 2: After -->
+    <div class="audio-section">
+      <h2>After Modification</h2>
+      <audio controls>
+        <source src="Audio/audio_after.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p>
+    This voice recording has been sanitized: errors, background noise, and sensitive information have been removed to improve clarity and safety.
+      </p>
+      <p class="recommendation">
+    Recommendation: Always be cautious of unexpected calls. Never share personal information or OTPs over the phone, and verify the caller's identity before taking any action.
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>

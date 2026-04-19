@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCall AI - 3D</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #f9f0ef, #ffe6e1);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #8b0000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        header .logo img {
+            height: 60px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: #8b0000;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .video-section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #6C1D1D;
+        }
+
+        footer {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="logo">
+            <img src="Logo and poster/logo_anti_fraud.svg" alt="SmartCall AI Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="images.html">Images</a>
+            <a href="video.html">Video</a>
+            <a href="audio.html">Audio</a>
+            <a href="3d.html">3D</a>
+        </nav>
+    </header>
+
+    <!-- ===== 3D Video Section ===== -->
+    <div class="container">
+        <h1>3D Interactive Example</h1>
+        <div class="video-section">
+            <video controls>
+                <source src="3D/maria 3D.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>
+                This 3D video demonstrates an interactive element for the SmartCall AI awareness campaign. Users can view the model from different angles to understand security concepts in a more engaging way.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 SmartCall AI - All Rights Reserved
+    </footer>
+
+</body>
+</html>
